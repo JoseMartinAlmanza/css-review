@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: #e48b8b;
+    height: 50px;
+}
+.menu ul{
+    width: 600px;
+    margin: 0 auto;
+    width: max-content;
+}
+.elemento{
+    display: inline;
+    margin: 0 5px;
+    /* margin: superior derecha inferior izquierda; */
+}
+ .menu .elemento{ 
+    display: inline;
+    margin: 0 auto;
+    padding: 6px;
+} 
+.elemento:hover{
+    background-color: rgb(190, 180, 173);
+}
+.elemento a:hover{
+    color: gray;
+    font-size: 30px;
+}
+.elemento a{
+    font-size: 24px;
+    color: #ffff;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    transition: 0.3s;
+}
